@@ -103,6 +103,7 @@
             android:textColor="#757575" />
 
         <Button
+            android:id="@+id/btn_gravar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -113,28 +114,5 @@
             android:text="GRAVAR" />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="Faça a verificação no botão abaixo"
-        android:textSize="34sp" />
-
-    <Button
-        android:id="@+id/btn_auth"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/white"
-        app:cornerRadius="200dp"
-        app:icon="?android:attr/fingerprintAuthDrawable"
-        app:iconGravity="top"
-        app:iconSize="80dp"
-        app:iconTint="#757575" />
 
 </LinearLayout>
