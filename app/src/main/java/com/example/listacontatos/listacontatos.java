@@ -31,7 +31,7 @@ public class listacontatos extends AppCompatActivity {
             Log.i("AGENDA_CONTATO", "Nome: " + edtNome.getText());
             Log.i("AGENDA_CONTATO", "Email: " + edtEmail.getText());
             Log.i("AGENDA_CONTATO", "Telefone: " + edtFone.getText());
-                }
+        }
         );
 
 
