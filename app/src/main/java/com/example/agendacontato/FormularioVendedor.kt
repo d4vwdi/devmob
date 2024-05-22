@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
+import android.widget.TextView /*teste*/
 import androidx.appcompat.app.AppCompatActivity
 import java.awt.font.TextAttribute
 
